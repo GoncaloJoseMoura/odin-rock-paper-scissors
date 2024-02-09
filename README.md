@@ -8,6 +8,7 @@ Knowing that
 - Rock beats Scissors
 - Paper beats Rock
 - Scissors beats Paper
+if both players have the same choice, it will be a tie.
 
 2. Plan
 “Given input X, what are the steps necessary to return output Y?”
