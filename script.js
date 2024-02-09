@@ -7,7 +7,7 @@ function getComputerChoice() {
 
 }
 
-function gameFirstRound(computerChoice, playerSelection) {
+function playRound(computerChoice, playerSelection) {
     if (
         (computerChoice === 'rock' && playerSelection === 'paper') ||
         (computerChoice === 'scissor' && playerSelection === 'rock') || 
@@ -30,7 +30,7 @@ for (let i = 1; i <= 5; ++i) {
     console.log(`Round number: ${i}`)
     console.log(`your choice: ${playerSelection}`)
     console.log(`Computer's choice: ${computerChoice}`)
-    console.log(gameFirstRound(computerChoice, playerSelection))
+    console.log(playRound(computerChoice, playerSelection))
     console.log("*".repeat(50))
 
 }
